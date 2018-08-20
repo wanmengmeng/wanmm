@@ -7,7 +7,7 @@ spring:
         git:
           uri: https://github.com/wanmengmeng/wanmm
           username: 875045164@qq.com
-          password: z09280423
+          password: 
           #search-paths: resources
           #default-label: master
 eureka:
