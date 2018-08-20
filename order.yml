@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: order
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/wanmengmeng/wanmm
+          username: 875045164@qq.com
+          password: z09280423
+          #search-paths: resources
+          #default-label: master
+eureka:
+  client:
+    service-url:
+       defaultZone: http://localhost:8761/eureka
